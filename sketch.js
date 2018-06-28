@@ -61,7 +61,7 @@ function preload(){
 	};
 	console.log('model loaded')
 	banana = {
-		model:loadModel('BANANA.obj'),
+		model:loadModel('Banana.obj'),
 		scale:10
 	};
 	console.log('model loaded')
