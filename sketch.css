@@ -1,0 +1,96 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+}
+
+a:link {
+    color: #fFF;
+}
+
+a:visited {
+    color: #fff;
+}
+
+
+
+.subtext2 {
+    text-align: right;
+    font-size: .7em;
+    letter-spacing: 4px;
+    position: fixed;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ff6699;
+    right: 30px;
+    top: 70px;
+}
+    
+
+.rotateR {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.rotateL {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.overlay3 {
+    position: fixed;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #fff;
+    right: 20%;
+    left: 20%;
+    text-align: center;
+    bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .overlay3 {
+        position: fixed;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: 4px;
+        color: #ff6699;
+        right: 20%;
+        left: 20%;
+        text-align: center;
+        bottom: 10px;
+    }
+    .subtext2 {
+        text-align: right;
+        font-size: 1em;
+        letter-spacing: 4px;
+        position: fixed;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #ff6699;
+        right: 50px;
+        top: 100px;
+    }
+}
