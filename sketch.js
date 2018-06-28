@@ -46,30 +46,30 @@ var initialRotY = 0;
 //Preload 3D Model
 function preload(){
 	apple = {
-		model:loadModel('./fruitsNStuff/Apple.obj'),
+		model:loadModel('/fruitsNStuff/Apple.obj'),
 		scale:1
 	};
 	console.log('model loaded')
 	carrot = {
-		model:loadModel('./fruitsNStuff/Carrot.obj'),
+		model:loadModel('/fruitsNStuff/Carrot.obj'),
 		scale:20
 	};
 	console.log('model loaded')
 	broccoli = {
-		model:loadModel('./fruitsNStuff/Broccoli.obj'),
+		model:loadModel('/fruitsNStuff/Broccoli.obj'),
 		scale:20
 	};
 	console.log('model loaded')
 	banana = {
-		model:loadModel('./fruitsNStuff/BANANA.obj'),
+		model:loadModel('/fruitsNStuff/BANANA.obj'),
 		scale:10
 	};
 	console.log('model loaded')
-	grapes = {model:loadModel('./fruitsNStuff/Grapes_01.obj'),
+	grapes = {model:loadModel('/fruitsNStuff/Grapes_01.obj'),
 		scale:14
 	};
 	console.log('model loaded')
-	cucumber = {model:loadModel('./fruitsNStuff/cucumber.obj'),
+	cucumber = {model:loadModel('/fruitsNStuff/cucumber.obj'),
 		scale:25
 	};
 	console.log('model loaded')
